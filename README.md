@@ -6,13 +6,13 @@
 
 Le présent projet est réalisé dans le cadre de la [formation Data Engineer  de Datascientest](https://datascientest.com/formation-data-engineer).
 
-L'objectif est de faire une analyse des reviews des visiteurs avec une partie visualisation (distribution géographique des visiteurs, évolution des reviews dans le temps, etc), puis de l'Analyse de Sentiments (Sentiment Analysis) après une étape de prétraitement. Ci-dessous, les détails et descriptions de chaque fichier.
+L'objectif est de faire une analyse des reviews avec de la visualisation (distribution géographique des visiteurs, évolution des reviews dans le temps, etc), puis de l'Analyse de Sentiments _(Sentiment Analysis)_ après une étape de prétraitement. Ci-dessous, les détails et descriptions de chaque fichier.
 
 Jeux de données  
 ---------------
 
 Le dataset en question est disponible sur  : [Lien vers le dataset](https://assets-datascientest.s3-eu-west-1.amazonaws.com/de/total/reviews.csv)
-Voici les colonnes présents dans le dataset ainsi qu'un petit descriptif pour chacun :
+Les colonnes présents dans le dataset sont les suivantes :
 - **Review_Text** : contenu du commentaire,
 - **Reviewer_Location** : Pays d'origine du commentaire,  
 - **Year_Month** : mois du commentaire,  
